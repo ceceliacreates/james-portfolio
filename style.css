@@ -41,7 +41,6 @@ button {
     justify-content: center;
     background-color: darkslategray;
     margin: 4px;
-    max-width: 1282px;
 }
 .header-container ul:first-child li:first-child {
     text-decoration: underline;
