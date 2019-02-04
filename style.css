@@ -61,16 +61,16 @@ button {
 h1 {
     padding: 10px 25px 10px 25px;
     color: white;
-    font-family: Arial;
+    font-family: 'Raleway', sans-serif;
 }
 ul {
     list-style-type: none;
     text-align: right;
     color: white;
-    font-family: Arial;
+    font-family: 'Raleway', sans-serif;
 }
 ul a {
     color: white;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Raleway', sans-serif;
 }
