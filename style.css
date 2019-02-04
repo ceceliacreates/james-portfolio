@@ -9,21 +9,24 @@ body {
     vertical-align: center;
     justify-content: center;
     flex-flow: column wrap;
-    max-width: 1290px;
+max-width: 1290px;
 }
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    max-width: 1290px;
+max-width: 1290px;
 }
 .flex-image {
     width: 250px;
     height: 250px;
     margin: 4px;
     opacity: .5;
+	transition: 1s;
 }
 .flex-image:hover {
     opacity: 1;
+	width: 500px;
+	height: 500px;
 }
 .header-image {
     width: 250px;
