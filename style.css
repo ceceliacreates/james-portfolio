@@ -9,19 +9,18 @@ body {
     vertical-align: center;
     justify-content: center;
     flex-flow: column wrap;
+max-width: 1290px;
 }
 .flex-container {
     display: flex;
     flex-flow: row wrap;
+max-width: 1290px;
 }
 .flex-image {
     width: 250px;
     height: 250px;
     margin: 4px;
     opacity: .5;
-}
-.flex-image:hover {
-    opacity: 1;
 }
 .header-image {
     width: 250px;
@@ -41,7 +40,7 @@ button {
     justify-content: center;
     background-color: darkslategray;
     margin: 4px;
-    max-width: 1282px;
+    max-width: 1290px;
 }
 .header-container ul:first-child li:first-child {
     text-decoration: underline;
