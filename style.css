@@ -21,6 +21,7 @@ max-width: 1290px;
     height: 250px;
     margin: 4px;
     opacity: .5;
+	transition: 1s;
 }
 .header-image {
     width: 250px;
