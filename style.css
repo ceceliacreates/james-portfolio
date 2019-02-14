@@ -23,16 +23,30 @@ max-width: 1290px;
     opacity: .5;
 	transition: 1s;
 }
+.flex-image:hover {
+    cursor: pointer;
+}
 .header-image {
     width: 250px;
     height: 250px;
     border: 2px solid black;
     margin: 4px;
 }
+.button-container {
+    display: flex;
+    flex-flow: column wrap;
+}
 button {
     height: 50px;
     vertical-align: center;
     margin: 4px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    cursor: pointer;
 }
 .header-container {
     display: flex;
