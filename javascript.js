@@ -23,20 +23,43 @@ var threeDimArray = document.getElementsByClassName('3D-image');
 var twoDim = document.getElementById('2D');
 var threeDim = document.getElementById('3D');
 /*Add event listener to 2D button and functions to display 2D and hide 3D*/
-twoDim.addEventListener("click", function() {
-    for (let i=0; i<twoDimImageArray.length; i++) {
-        twoDimArray[i].style.display = "block"
-    };
-    for (let i=0; i<threeDimArray.length; i++) {
-        threeDimArray[i].style.display = "none"
-    };
-});
+twoDim.addEventListener("click", function () {
+    /*display 2D images if hidden*/
+    for (let i=0; i<twoDimArray.length; i++) {
+        if (twoDimArray[i].style.display === 'none') {
+            twoDimArray[i].style.display = 'flex';
+        }
+        else {
+            twoDimArray[i].style.display = 'flex';
+        }
+    }
+    /*hide 3D images if shown*/
+    for (let a=0; a<threeDimArray.length; a++) {
+        if (threeDimArray[a].style.display === 'flex') {
+            threeDimArray[a].style.display = 'none';
+        }
+        else {
+            threeDimArray[a].style.display = 'none';
+        }
+    }
+})
 /*Add event listener to 3D button and functions to display 3D and hide 2D*/
-threeDim.addEventListener("click", function() {
-    for (let i=0; i<twoDimImageArray.length; i++) {
-        twoDimArray[i].style.display = "none"
-    };
+threeDim.addEventListener("click", function () {
+    /*display 3D images if hidden */
     for (let i=0; i<threeDimArray.length; i++) {
-        threeDimArray[i].style.display = "block"
-    };
-});
+        if (threeDimArray[i].style.display === 'none') {
+            threeDimArray[i].style.display = 'flex';
+        }
+        else {
+            threeDimArray[i].style.display = 'flex';
+        }
+    }
+    /*hide 2D images if shown*/
+    for (let a=0; a<twoDimArray.length; a++) {
+        if (twoDimArray[a].style.display === 'flex') {
+            twoDimArray[a].style.display = 'none';
+        }
+        else {
+            twoDimArray[a].style.display = 'none';        }
+    }
+})
