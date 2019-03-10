@@ -18,13 +18,18 @@ max-width: 1290px;
 }
 .flex-image {
     width: 250px;
-    height: 250px;
+    height: 165px;
     margin: 4px;
     opacity: .5;
 	transition: 1s;
 }
 .flex-image:hover {
     cursor: pointer;
+}
+.enlarged {
+    width: 600px;
+    height: 397px;
+    opacity: 1;
 }
 .header-image {
     width: 250px;
@@ -76,6 +81,11 @@ h1 {
     padding: 10px 25px 10px 25px;
     color: white;
     font-family: 'Raleway', sans-serif;
+}
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px 20px 5px 20px;
 }
 ul {
     list-style-type: none;

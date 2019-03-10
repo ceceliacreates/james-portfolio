@@ -3,14 +3,13 @@
 var images = document.getElementsByClassName('flex-image');
 for (let i=0; i<images.length; i++){
 images[i].addEventListener("click", function() {
-this.style.height = "500px";
-this.style.width = "500px";
-this.style.opacity = "1";
+this.classList.toggle("enlarged");
 this.style.transition = "1s";})
-/*reverts to original size on mouseout*/
+}
+/*reverts to original size on mouseout*
 images[i].addEventListener("mouseout", function() {
-this.style.height = "250px";
 this.style.width = "250px";
+this.style.height = "165px";
 this.style.opacity = ".5";
 this.style.transition = "1s";
 })
