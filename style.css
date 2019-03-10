@@ -77,6 +77,12 @@ button:hover {
     height: 15px;
     width: 15px;
 }
+.center {
+    justify-content: center;
+}
+a {
+    color: darkslategray;
+}
 h1 {
     padding: 10px 25px 10px 25px;
     color: white;
